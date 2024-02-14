@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 #parent{
-    background-color: aliceblue;
+    background-color: rgb(133, 133, 133);
     width: 100%;
     height: 768px;
     display: grid;
@@ -19,13 +19,36 @@ body{
     width: 50%;
     height: 509px;
     float: left;
-    background-color: yellow;
+    background-color: white;
 }
+.type{
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 31px;
+    padding-top: 5px;
+}
+
+.text{
+    height: 20%;
+    background-color: red;
+    padding-left: 35px;
+    padding-top: 95px;
+}
+.for1{
+    height: 40%;
+    padding-left: 35px;
+
+}
+.png{
+    height: 20%;
+}
+
 .im{
     width: 50%;
     height: 509px;
     background-color: blue;
     float: left;
+    
 }
 .sim{
     width: 300px;
@@ -34,8 +57,11 @@ body{
 .sh{
     width: 30px;
     height: 30px;
-    border: 1px solid;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     padding: 8px;
     margin: 15px;
+    border-radius: 4px;
 }
-
+.sh:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
